@@ -4,7 +4,7 @@ from decimal import Decimal, getcontext
 from math import pi
 # Приведите константу "пи" к типу Decimal.
 # Помните, что Decimal() принимает строку, а константа "пи" - это число.
-pi = Decimal(str(pi))
+pipi = Decimal(str(pi))
 # Установите необходимую точность для вычислений.
 getcontext().prec = 10
 
