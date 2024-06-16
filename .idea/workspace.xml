@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: convert_time.py.py">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: if_else_month.py">
+      <change beforePath="$PROJECT_DIR$/Python/basic_python/if_else_month.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/basic_python/if_else_month.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,18 +33,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.convert_time.executor&quot;: &quot;Run&quot;,
-    &quot;Python.import_modules.executor&quot;: &quot;Run&quot;,
-    &quot;Python.min_max.executor&quot;: &quot;Run&quot;,
-    &quot;Python.randint.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sum_and_round.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.convert_time.executor": "Run",
+    "Python.if_else_month.executor": "Run",
+    "Python.import_modules.executor": "Run",
+    "Python.min_max.executor": "Run",
+    "Python.randint.executor": "Run",
+    "Python.sum_and_round.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.if_else_month">
     <configuration name="convert_time" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_engineer" />
@@ -252,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718477642009</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new files: if_else_month.py">
+      <option name="closed" value="true" />
+      <created>1718541099030</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718541099030</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -262,7 +271,8 @@
     <MESSAGE value="new files: randint.py" />
     <MESSAGE value="change files: randint.py" />
     <MESSAGE value="new files: convert_time.py.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="new files: convert_time.py.py" />
+    <MESSAGE value="new files: if_else_month.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files: if_else_month.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
