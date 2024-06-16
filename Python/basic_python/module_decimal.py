@@ -10,7 +10,7 @@ getcontext().prec = 10
 
 # Объявите функцию ellipse_area() с двумя параметрами.
 def ellipse_area(d_big, d_small):
-    ellipse_area = pi * d_big * d_small
+    ellipse_area = pipi * d_big * d_small
     print('Площадь эллипса:', ellipse_area, 'кв.м.')
     return ellipse_area
 
