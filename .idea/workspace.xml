@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: count_tiles1.py">
+    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: count_tiles2.py">
+      <change afterPath="$PROJECT_DIR$/Python/basic_python/count_tiles3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/basic_python/count_tiles1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/basic_python/count_tiles1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,8 @@
     "Python.count_tiles.executor": "Run",
     "Python.count_tiles1 (1).executor": "Run",
     "Python.count_tiles1.executor": "Run",
+    "Python.count_tiles2.executor": "Run",
+    "Python.count_tiles3.executor": "Run",
     "Python.if_else_month.executor": "Run",
     "Python.import_modules.executor": "Run",
     "Python.min_max.executor": "Run",
@@ -51,7 +53,7 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.count_tiles1 (1)">
+  <component name="RunManager" selected="Python.count_tiles3">
     <configuration name="and_or_not" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
@@ -140,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="if_else_month" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="count_tiles3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,7 +155,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/if_else_month.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/count_tiles3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.count_tiles3" />
         <item itemvalue="Python.count_tiles1 (1)" />
         <item itemvalue="Python.count_tiles2" />
         <item itemvalue="Python.count_tiles1" />
         <item itemvalue="Python.and_or_not" />
-        <item itemvalue="Python.if_else_month" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718545808216</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="new files: count_tiles2.py">
+      <option name="closed" value="true" />
+      <created>1718548388012</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718548388012</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -304,7 +314,8 @@
     <MESSAGE value="change files: if_else_month.py" />
     <MESSAGE value="new files: and_or_not.py" />
     <MESSAGE value="new files: count_tiles1.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="new files: count_tiles1.py" />
+    <MESSAGE value="new files: count_tiles2.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files: count_tiles2.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
