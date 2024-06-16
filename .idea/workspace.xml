@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: if_else_month.py">
-      <change beforePath="$PROJECT_DIR$/Python/basic_python/if_else_month.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/basic_python/if_else_month.py" afterDir="false" />
+    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="change files: if_else_month.py">
+      <change afterPath="$PROJECT_DIR$/Python/basic_python/and_or_not.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,29 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.if_else_month">
+  <component name="RunManager" selected="Python.and_or_not">
+    <configuration name="and_or_not" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data_engineer" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/basic_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/and_or_not.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="convert_time" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
@@ -157,35 +180,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sum_and_round" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Data_engineer" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/basic_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/sum_and_round.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.and_or_not" />
         <item itemvalue="Python.if_else_month" />
         <item itemvalue="Python.number_operations" />
         <item itemvalue="Python.convert_time" />
         <item itemvalue="Python.randint" />
-        <item itemvalue="Python.sum_and_round" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718541099030</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="change files: if_else_month.py">
+      <option name="closed" value="true" />
+      <created>1718541824351</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718541824351</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -272,7 +281,8 @@
     <MESSAGE value="change files: randint.py" />
     <MESSAGE value="new files: convert_time.py.py" />
     <MESSAGE value="new files: if_else_month.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="new files: if_else_month.py" />
+    <MESSAGE value="change files: if_else_month.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="change files: if_else_month.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
