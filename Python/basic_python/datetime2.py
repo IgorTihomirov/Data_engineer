@@ -22,11 +22,12 @@ def get_weekday_name(weekday_number):
 
 def get_day_after_tomorrow(date_string):
     # Напишите код функции.
-    date_string = datetime.strptime(date_string, '%Y-%m-%d')
-    date_string.weekday()
-    day_after_tomorrow = date_string + timedelta(days=2)
+    date = datetime.strptime(date_string, '%Y-%m-%d')
+    date.weekday()
+    day_after_tomorrow = date + timedelta(days=2)
     day_after_tomorrow.weekday()
-    print('Сегодня', date_string, get_weekday_name(date_string.weekday()), 'а после завтра будет',
+
+    print('Сегодня ' + str(date_string) + ', ' + get_weekday_name(date.weekday()) + ',', 'а послезавтра будет',
           get_weekday_name(day_after_tomorrow.weekday()))
 
 
