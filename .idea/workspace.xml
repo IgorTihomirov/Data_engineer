@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: access_by_index.py">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: Unpacking_the_list.py">
+      <change beforePath="$PROJECT_DIR$/Python/basic_python/Unpacking_the_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/basic_python/Unpacking_the_list.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Unpacking_the_list.executor": "Run",
     "Python.access_by_index.executor": "Run",
     "Python.and_or_not.executor": "Run",
     "Python.convert_time.executor": "Run",
@@ -394,7 +395,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718739971451</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="new files: Unpacking_the_list.py">
+      <option name="closed" value="true" />
+      <created>1718740065869</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1718740065869</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -419,7 +428,8 @@
     <MESSAGE value="new files: datetime4.py" />
     <MESSAGE value="new files: string_to_list.py" />
     <MESSAGE value="new files: access_by_index.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="new files: access_by_index.py" />
+    <MESSAGE value="new files: Unpacking_the_list.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files: Unpacking_the_list.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
