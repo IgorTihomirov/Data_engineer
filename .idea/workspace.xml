@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: tuple3.py">
-      <change afterPath="$PROJECT_DIR$/Python/basic_python/string_to_word.py" afterDir="false" />
+    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: string_to_word.py">
+      <change afterPath="$PROJECT_DIR$/Python/basic_python/f_string.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,12 +49,14 @@
     "Python.datetime2.executor": "Run",
     "Python.datetime3.executor": "Run",
     "Python.datetime4.executor": "Run",
+    "Python.f_string.executor": "Run",
     "Python.if_else_month.executor": "Run",
     "Python.import_modules.executor": "Run",
     "Python.min_max.executor": "Run",
     "Python.module_decimal.executor": "Run",
     "Python.randint.executor": "Run",
     "Python.string_to_list.executor": "Run",
+    "Python.string_to_word.executor": "Run",
     "Python.sum_and_round.executor": "Run",
     "Python.tuple1.executor": "Run",
     "Python.tuple2.executor": "Run",
@@ -64,8 +66,8 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.string_to_word">
-    <configuration name="Unpacking_the_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.f_string">
+    <configuration name="f_string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,7 +80,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/Unpacking_the_list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/f_string.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.f_string" />
         <item itemvalue="Python.string_to_word" />
         <item itemvalue="Python.tuple3" />
         <item itemvalue="Python.tuple2" />
         <item itemvalue="Python.tuple1" />
-        <item itemvalue="Python.Unpacking_the_list" />
       </list>
     </recent_temporary>
   </component>
@@ -439,11 +441,18 @@
       <option name="project" value="LOCAL" />
       <updated>1718820779519</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="new files: string_to_word.py">
+      <option name="closed" value="true" />
+      <created>1718823611881</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1718823611881</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new files: min_max.py" />
     <MESSAGE value="new files: sum_and_round.py" />
     <MESSAGE value="new files: randint.py" />
     <MESSAGE value="change files: randint.py" />
@@ -468,7 +477,8 @@
     <MESSAGE value="new files: tuple1.py" />
     <MESSAGE value="new files: tuple2.py" />
     <MESSAGE value="new files: tuple3.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="new files: tuple3.py" />
+    <MESSAGE value="new files: string_to_word.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files: string_to_word.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
