@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: tuple2.py">
-      <change afterPath="$PROJECT_DIR$/Python/basic_python/tuple3.py" afterDir="false" />
+    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: tuple3.py">
+      <change afterPath="$PROJECT_DIR$/Python/basic_python/string_to_word.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,12 +58,13 @@
     "Python.sum_and_round.executor": "Run",
     "Python.tuple1.executor": "Run",
     "Python.tuple2.executor": "Run",
+    "Python.tuple3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.tuple3">
+  <component name="RunManager" selected="Python.string_to_word">
     <configuration name="Unpacking_the_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
@@ -86,28 +87,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="access_by_index" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Data_engineer" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/basic_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/access_by_index.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
@@ -122,6 +101,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="string_to_word" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data_engineer" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/basic_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/string_to_word.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.string_to_word" />
         <item itemvalue="Python.tuple3" />
         <item itemvalue="Python.tuple2" />
         <item itemvalue="Python.tuple1" />
         <item itemvalue="Python.Unpacking_the_list" />
-        <item itemvalue="Python.access_by_index" />
       </list>
     </recent_temporary>
   </component>
@@ -430,11 +431,18 @@
       <option name="project" value="LOCAL" />
       <updated>1718819219090</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="new files: tuple3.py">
+      <option name="closed" value="true" />
+      <created>1718820779519</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1718820779519</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new folder: Python, SQL&#10;new files: import_modules.py" />
     <MESSAGE value="new files: min_max.py" />
     <MESSAGE value="new files: sum_and_round.py" />
     <MESSAGE value="new files: randint.py" />
@@ -459,7 +467,8 @@
     <MESSAGE value="change files: Unpacking_the_list.py" />
     <MESSAGE value="new files: tuple1.py" />
     <MESSAGE value="new files: tuple2.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="new files: tuple2.py" />
+    <MESSAGE value="new files: tuple3.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files: tuple3.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
