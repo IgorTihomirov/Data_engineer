@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: f_string.py">
-      <change afterPath="$PROJECT_DIR$/Python/basic_python/range1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: range1.py">
+      <change afterPath="$PROJECT_DIR$/Python/basic_python/slice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,7 @@
     "Python.min_max.executor": "Run",
     "Python.module_decimal.executor": "Run",
     "Python.randint.executor": "Run",
+    "Python.range1.executor": "Run",
     "Python.string_to_list.executor": "Run",
     "Python.string_to_word.executor": "Run",
     "Python.sum_and_round.executor": "Run",
@@ -66,7 +66,7 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.range1">
+  <component name="RunManager" selected="Python.slice">
     <configuration name="f_string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
@@ -133,6 +133,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="slice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data_engineer" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/basic_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/slice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="string_to_word" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
@@ -147,28 +169,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/string_to_word.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tuple2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Data_engineer" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/basic_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/tuple2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.slice" />
         <item itemvalue="Python.range1" />
         <item itemvalue="Python.f_string" />
         <item itemvalue="Python.string_to_word" />
         <item itemvalue="Python.tuple3" />
-        <item itemvalue="Python.tuple2" />
       </list>
     </recent_temporary>
   </component>
@@ -457,11 +457,18 @@
       <option name="project" value="LOCAL" />
       <updated>1718825093989</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="new files: range1.py">
+      <option name="closed" value="true" />
+      <created>1718905463835</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1718905463835</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new files: randint.py" />
     <MESSAGE value="change files: randint.py" />
     <MESSAGE value="new files: convert_time.py.py" />
     <MESSAGE value="new files: if_else_month.py" />
@@ -486,7 +493,8 @@
     <MESSAGE value="new files: tuple3.py" />
     <MESSAGE value="new files: string_to_word.py" />
     <MESSAGE value="new files: f_string.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="new files: f_string.py" />
+    <MESSAGE value="new files: range1.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files: range1.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
