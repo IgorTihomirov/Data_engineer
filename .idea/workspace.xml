@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: is_palindrome_str_lower_replace_reversed.py">
-      <change afterPath="$PROJECT_DIR$/Python/basic_python/pay_bills_list.py" afterDir="false" />
+    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="change files: pay_bills_list.py">
+      <change afterPath="$PROJECT_DIR$/Python/basic_python/cycle_for1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.pay_bills_list">
+  <component name="RunManager" selected="Python.cycle_for1">
     <configuration name="check_winners_list_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
@@ -96,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="cycle_for1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,7 +109,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/dictionary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/cycle_for1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cycle_for1" />
         <item itemvalue="Python.pay_bills_list" />
         <item itemvalue="Python.is_palindrome_str_lower_replace_reversed" />
         <item itemvalue="Python.get_stickers_comprasion_tuple" />
         <item itemvalue="Python.check_winners_list_sort" />
-        <item itemvalue="Python.dictionary" />
       </list>
     </recent_temporary>
   </component>
@@ -528,12 +528,26 @@
       <option name="project" value="LOCAL" />
       <updated>1719007331224</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="new files: pay_bills_list.py">
+      <option name="closed" value="true" />
+      <created>1719010669650</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1719010669650</updated>
+    </task>
+    <task id="LOCAL-00039" summary="change files: pay_bills_list.py">
+      <option name="closed" value="true" />
+      <created>1719010822364</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1719010822364</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new files: count_tiles2.py" />
-    <MESSAGE value="new files: count_tiles3.py" />
     <MESSAGE value="new files: module_decimal.py" />
     <MESSAGE value="change files: module_decimal.py" />
     <MESSAGE value="change files: datetime1.py" />
@@ -557,7 +571,9 @@
     <MESSAGE value="new files: check_winners_list_sort.py" />
     <MESSAGE value="new files: get_stickers_comprasion_tuple.py" />
     <MESSAGE value="new files: is_palindrome_str_lower_replace_reversed.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="new files: is_palindrome_str_lower_replace_reversed.py" />
+    <MESSAGE value="new files: pay_bills_list.py" />
+    <MESSAGE value="change files: pay_bills_list.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="change files: pay_bills_list.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
