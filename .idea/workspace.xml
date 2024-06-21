@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: campare_sequence.py" />
+    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: dictionary.py">
+      <change afterPath="$PROJECT_DIR$/Python/basic_python/check_winners_list_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +40,7 @@
     "Python.access_by_index.executor": "Run",
     "Python.and_or_not.executor": "Run",
     "Python.campare_sequence.executor": "Run",
+    "Python.check_winners_list_sort.executor": "Run",
     "Python.convert_time.executor": "Run",
     "Python.count_tiles.executor": "Run",
     "Python.count_tiles1 (1).executor": "Run",
@@ -47,6 +51,7 @@
     "Python.datetime2.executor": "Run",
     "Python.datetime3.executor": "Run",
     "Python.datetime4.executor": "Run",
+    "Python.dictionary.executor": "Run",
     "Python.f_string.executor": "Run",
     "Python.if_else_month.executor": "Run",
     "Python.import_modules.executor": "Run",
@@ -66,7 +71,7 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.dictionary">
+  <component name="RunManager" selected="Python.check_winners_list_sort">
     <configuration name="campare_sequence" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
@@ -89,6 +94,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="check_winners_list_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data_engineer" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/basic_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/check_winners_list_sort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
@@ -103,28 +130,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/dictionary.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="f_string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Data_engineer" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/basic_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/f_string.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.check_winners_list_sort" />
         <item itemvalue="Python.dictionary" />
         <item itemvalue="Python.campare_sequence" />
         <item itemvalue="Python.slice" />
         <item itemvalue="Python.range1" />
-        <item itemvalue="Python.f_string" />
       </list>
     </recent_temporary>
   </component>
@@ -481,11 +486,18 @@
       <option name="project" value="LOCAL" />
       <updated>1718909461723</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="new files: dictionary.py">
+      <option name="closed" value="true" />
+      <created>1718912030925</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1718912030925</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new files: if_else_month.py" />
     <MESSAGE value="change files: if_else_month.py" />
     <MESSAGE value="new files: and_or_not.py" />
     <MESSAGE value="new files: count_tiles1.py" />
@@ -510,7 +522,8 @@
     <MESSAGE value="new files: range1.py" />
     <MESSAGE value="new files: slice.py" />
     <MESSAGE value="new files: campare_sequence.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="new files: campare_sequence.py" />
+    <MESSAGE value="new files: dictionary.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files: dictionary.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
