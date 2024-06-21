@@ -1,9 +1,9 @@
 # Объявите функцию check_winners с параметрами scores и student_score.
 # Функция должна напечатать результат в заданном формате.
 def check_winners(scores, student_score):
-    my_list = list.sort(scores, reverse=True)
-    my_slice = my_list[0:2]
-    if student_score in my_slice:
+    scores_sorted = sorted(scores, reverse=True)
+    slice = scores_sorted[0:3]
+    if student_score in slice:
         print(f'Вы в тройке победителей!')
     else:
         print(f'Вы не попали в тройку победителей.')
