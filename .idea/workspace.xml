@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: get_stickers_comprasion_tuple.py" />
+    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: is_palindrome_str_lower_replace_reversed.py">
+      <change afterPath="$PROJECT_DIR$/Python/basic_python/pay_bills_list.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,8 +55,10 @@
     "Python.get_stickers_comprasion_tuple.executor": "Run",
     "Python.if_else_month.executor": "Run",
     "Python.import_modules.executor": "Run",
+    "Python.is_palindrome_str_lower_replace_reversed.executor": "Run",
     "Python.min_max.executor": "Run",
     "Python.module_decimal.executor": "Run",
+    "Python.pay_bills_list.executor": "Run",
     "Python.randint.executor": "Run",
     "Python.range1.executor": "Run",
     "Python.slice.executor": "Run",
@@ -69,29 +73,7 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.is_palindrome_str_lower_replace_reversed">
-    <configuration name="campare_sequence" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Data_engineer" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/basic_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/campare_sequence.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.pay_bills_list">
     <configuration name="check_winners_list_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
@@ -202,13 +184,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pay_bills_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data_engineer" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/basic_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/pay_bills_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pay_bills_list" />
         <item itemvalue="Python.is_palindrome_str_lower_replace_reversed" />
         <item itemvalue="Python.get_stickers_comprasion_tuple" />
         <item itemvalue="Python.check_winners_list_sort" />
         <item itemvalue="Python.dictionary" />
-        <item itemvalue="Python.campare_sequence" />
       </list>
     </recent_temporary>
   </component>
@@ -516,11 +520,18 @@
       <option name="project" value="LOCAL" />
       <updated>1719005954867</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="new files: is_palindrome_str_lower_replace_reversed.py">
+      <option name="closed" value="true" />
+      <created>1719007331224</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1719007331224</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new files: count_tiles1.py" />
     <MESSAGE value="new files: count_tiles2.py" />
     <MESSAGE value="new files: count_tiles3.py" />
     <MESSAGE value="new files: module_decimal.py" />
@@ -545,7 +556,8 @@
     <MESSAGE value="new files: dictionary.py" />
     <MESSAGE value="new files: check_winners_list_sort.py" />
     <MESSAGE value="new files: get_stickers_comprasion_tuple.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="new files: get_stickers_comprasion_tuple.py" />
+    <MESSAGE value="new files: is_palindrome_str_lower_replace_reversed.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files: is_palindrome_str_lower_replace_reversed.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
