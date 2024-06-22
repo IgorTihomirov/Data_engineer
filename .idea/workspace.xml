@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: cycle_for_list_append.py" />
+    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: cycle_for_list_comprehension.py">
+      <change afterPath="$PROJECT_DIR$/Python/basic_python/cycle_for_list_comprehension_range().py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +51,8 @@
     "Python.cycle_for_break.executor": "Run",
     "Python.cycle_for_continue.executor": "Run",
     "Python.cycle_for_list_append.executor": "Run",
+    "Python.cycle_for_list_comprehension.executor": "Run",
+    "Python.cycle_for_list_comprehension_range().executor": "Run",
     "Python.cycle_for_month.executor": "Run",
     "Python.cycle_while_conter_.executor": "Run",
     "Python.cycle_while_continue_break.executor": "Run",
@@ -82,7 +87,7 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.cycle_for_list_comprehension">
+  <component name="RunManager" selected="Python.cycle_for_list_comprehension_range()">
     <configuration name="cycle_for_list_append" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
@@ -119,6 +124,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/cycle_for_list_comprehension.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cycle_for_list_comprehension_range()" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data_engineer" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/basic_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/cycle_for_list_comprehension_range().py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,28 +198,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cycle_while_continue_break" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Data_engineer" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/basic_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/cycle_while_continue_break.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
@@ -217,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cycle_for_list_comprehension_range()" />
         <item itemvalue="Python.cycle_for_list_comprehension" />
         <item itemvalue="Python.cycle_for_list_append" />
         <item itemvalue="Python.cycle_while_conter_" />
         <item itemvalue="Python.cycle_for_month" />
-        <item itemvalue="Python.cycle_while_continue_break" />
       </list>
     </recent_temporary>
   </component>
@@ -240,14 +245,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718455761218</updated>
-    </task>
-    <task id="LOCAL-00003" summary="new files: sum_and_round.py">
-      <option name="closed" value="true" />
-      <created>1718458684713</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1718458684713</updated>
     </task>
     <task id="LOCAL-00004" summary="new files: randint.py">
       <option name="closed" value="true" />
@@ -633,11 +630,18 @@
       <option name="project" value="LOCAL" />
       <updated>1719036500459</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="new files: cycle_for_list_comprehension.py">
+      <option name="closed" value="true" />
+      <created>1719036800027</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1719036800027</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new files: tuple2.py" />
     <MESSAGE value="new files: tuple3.py" />
     <MESSAGE value="new files: string_to_word.py" />
     <MESSAGE value="new files: f_string.py" />
@@ -662,7 +666,8 @@
     <MESSAGE value="new files: cycle_for_month.py" />
     <MESSAGE value="new files: cycle_while_conter_.py" />
     <MESSAGE value="new files: cycle_for_list_append.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="new files: cycle_for_list_append.py" />
+    <MESSAGE value="new files: cycle_for_list_comprehension.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files: cycle_for_list_comprehension.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
