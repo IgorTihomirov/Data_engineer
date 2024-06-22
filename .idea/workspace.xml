@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: cycle_while_continue_break.py">
-      <change afterPath="$PROJECT_DIR$/Python/basic_python/cycle_for_month.py" afterDir="false" />
+    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: cycle_while_conter_.py">
+      <change afterPath="$PROJECT_DIR$/Python/basic_python/cycle_for_list_append.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,9 @@
     "Python.cycle_for1.executor": "Run",
     "Python.cycle_for_break.executor": "Run",
     "Python.cycle_for_continue.executor": "Run",
+    "Python.cycle_for_list_append.executor": "Run",
+    "Python.cycle_for_month.executor": "Run",
+    "Python.cycle_while_conter_.executor": "Run",
     "Python.cycle_while_continue_break.executor": "Run",
     "Python.datetime1.executor": "Run",
     "Python.datetime2.executor": "Run",
@@ -81,7 +85,7 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.cycle_for_month">
+  <component name="RunManager" selected="Python.cycle_for_list_append">
     <configuration name="cycle_for_break" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
@@ -104,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cycle_for_continue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="cycle_for_list_append" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,7 +121,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/cycle_for_continue.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/cycle_for_list_append.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,6 +152,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="cycle_while_conter_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data_engineer" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/basic_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/cycle_while_conter_.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="cycle_while_continue_break" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
@@ -162,28 +188,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/cycle_while_continue_break.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="inserted_cycle_for" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Data_engineer" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/basic_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Prog\Data_engineer\Python\basic_python\inserted_cycle_for.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cycle_for_list_append" />
+        <item itemvalue="Python.cycle_while_conter_" />
         <item itemvalue="Python.cycle_for_month" />
         <item itemvalue="Python.cycle_while_continue_break" />
         <item itemvalue="Python.cycle_for_break" />
-        <item itemvalue="Python.cycle_for_continue" />
-        <item itemvalue="Python.inserted_cycle_for" />
       </list>
     </recent_temporary>
   </component>
@@ -239,14 +243,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718455761218</updated>
-    </task>
-    <task id="LOCAL-00001" summary="new folder: Python, SQL&#10;new files: import_modules.py">
-      <option name="closed" value="true" />
-      <created>1718456122523</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1718456122523</updated>
     </task>
     <task id="LOCAL-00002" summary="new files: min_max.py">
       <option name="closed" value="true" />
@@ -624,12 +620,26 @@
       <option name="project" value="LOCAL" />
       <updated>1719034282264</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="new files: cycle_for_month.py">
+      <option name="closed" value="true" />
+      <created>1719034593228</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1719034593228</updated>
+    </task>
+    <task id="LOCAL-00050" summary="new files: cycle_while_conter_.py">
+      <option name="closed" value="true" />
+      <created>1719035911752</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1719035911752</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new files: Unpacking_the_list.py" />
-    <MESSAGE value="change files: Unpacking_the_list.py" />
     <MESSAGE value="new files: tuple1.py" />
     <MESSAGE value="new files: tuple2.py" />
     <MESSAGE value="new files: tuple3.py" />
@@ -653,7 +663,9 @@
     <MESSAGE value="new files: cycle_for_continue.py" />
     <MESSAGE value="new files: cycle_for_break.py" />
     <MESSAGE value="new files: cycle_while_continue_break.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="new files: cycle_while_continue_break.py" />
+    <MESSAGE value="new files: cycle_for_month.py" />
+    <MESSAGE value="new files: cycle_while_conter_.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files: cycle_while_conter_.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
