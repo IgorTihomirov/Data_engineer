@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: while_shuffle.py">
-      <change afterPath="$PROJECT_DIR$/Python/basic_python/while_current_temperature.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: while_current_temperature.py">
+      <change afterPath="$PROJECT_DIR$/Python/basic_python/nested_loop_for.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.while_current_temperature">
+  <component name="RunManager" selected="Python.nested_loop_for">
     <configuration name="cycle_for1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
@@ -123,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pay_bills_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="nested_loop_for" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,7 +135,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/pay_bills_list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/nested_loop_for.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.nested_loop_for" />
         <item itemvalue="Python.while_current_temperature" />
         <item itemvalue="Python.while_shuffle" />
         <item itemvalue="Python.while_cat" />
         <item itemvalue="Python.cycle_for1" />
-        <item itemvalue="Python.pay_bills_list" />
       </list>
     </recent_temporary>
   </component>
@@ -573,11 +572,18 @@
       <option name="project" value="LOCAL" />
       <updated>1719031964191</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="new files: while_current_temperature.py">
+      <option name="closed" value="true" />
+      <created>1719033264395</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1719033264395</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new files: datetime2.py" />
     <MESSAGE value="change files: datetime2.py" />
     <MESSAGE value="new files: datetime3.py" />
     <MESSAGE value="new files: datetime4.py" />
@@ -602,7 +608,8 @@
     <MESSAGE value="new files: cycle_for1.py" />
     <MESSAGE value="new files: while_cat.py" />
     <MESSAGE value="new files: while_shuffle.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="new files: while_shuffle.py" />
+    <MESSAGE value="new files: while_current_temperature.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files: while_current_temperature.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
