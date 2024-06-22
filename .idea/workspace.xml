@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: cycle_for_list_comprehension_range().py" />
+    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: cycle_for_dict_comprehension.py">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +49,7 @@
     "Python.cycle_for1.executor": "Run",
     "Python.cycle_for_break.executor": "Run",
     "Python.cycle_for_continue.executor": "Run",
+    "Python.cycle_for_dict_comprehension.executor": "Run",
     "Python.cycle_for_list_append.executor": "Run",
     "Python.cycle_for_list_comprehension.executor": "Run",
     "Python.cycle_for_list_comprehension_range().executor": "Run",
@@ -242,14 +245,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718455761218</updated>
-    </task>
-    <task id="LOCAL-00005" summary="change files: randint.py">
-      <option name="closed" value="true" />
-      <created>1718460121185</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1718460121185</updated>
     </task>
     <task id="LOCAL-00006" summary="new files: convert_time.py.py">
       <option name="closed" value="true" />
@@ -635,11 +630,18 @@
       <option name="project" value="LOCAL" />
       <updated>1719037417943</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="new files: cycle_for_dict_comprehension.py">
+      <option name="closed" value="true" />
+      <created>1719037690532</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1719037690533</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new files: string_to_word.py" />
     <MESSAGE value="new files: f_string.py" />
     <MESSAGE value="new files: range1.py" />
     <MESSAGE value="new files: slice.py" />
@@ -664,7 +666,8 @@
     <MESSAGE value="new files: cycle_for_list_append.py" />
     <MESSAGE value="new files: cycle_for_list_comprehension.py" />
     <MESSAGE value="new files: cycle_for_list_comprehension_range().py" />
-    <option name="LAST_COMMIT_MESSAGE" value="new files: cycle_for_list_comprehension_range().py" />
+    <MESSAGE value="new files: cycle_for_dict_comprehension.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files: cycle_for_dict_comprehension.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
