@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: cycle_for_continue.py">
-      <change afterPath="$PROJECT_DIR$/Python/basic_python/cycle_for_break.py" afterDir="false" />
+    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: cycle_while_continue_break.py">
+      <change afterPath="$PROJECT_DIR$/Python/basic_python/cycle_for_month.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,7 @@
     "Python.cycle_for1.executor": "Run",
     "Python.cycle_for_break.executor": "Run",
     "Python.cycle_for_continue.executor": "Run",
+    "Python.cycle_while_continue_break.executor": "Run",
     "Python.datetime1.executor": "Run",
     "Python.datetime2.executor": "Run",
     "Python.datetime3.executor": "Run",
@@ -80,7 +81,7 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.cycle_while_continue_break">
+  <component name="RunManager" selected="Python.cycle_for_month">
     <configuration name="cycle_for_break" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
@@ -117,6 +118,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/cycle_for_continue.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cycle_for_month" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data_engineer" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/basic_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/cycle_for_month.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,35 +214,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="while_current_temperature" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Data_engineer" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/basic_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/while_current_temperature.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cycle_for_month" />
         <item itemvalue="Python.cycle_while_continue_break" />
         <item itemvalue="Python.cycle_for_break" />
         <item itemvalue="Python.cycle_for_continue" />
         <item itemvalue="Python.inserted_cycle_for" />
-        <item itemvalue="Python.while_current_temperature" />
       </list>
     </recent_temporary>
   </component>
@@ -607,12 +608,26 @@
       <option name="project" value="LOCAL" />
       <updated>1719034017258</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="new files: cycle_for_break.py">
+      <option name="closed" value="true" />
+      <created>1719034173867</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1719034173867</updated>
+    </task>
+    <task id="LOCAL-00048" summary="new files: cycle_while_continue_break.py">
+      <option name="closed" value="true" />
+      <created>1719034282264</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1719034282264</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new files: string_to_list.py" />
-    <MESSAGE value="new files: access_by_index.py" />
     <MESSAGE value="new files: Unpacking_the_list.py" />
     <MESSAGE value="change files: Unpacking_the_list.py" />
     <MESSAGE value="new files: tuple1.py" />
@@ -636,7 +651,9 @@
     <MESSAGE value="new files: nested_loop_for.py" />
     <MESSAGE value="rename files: nested_loop_for.py to inserted_cycle_for.py" />
     <MESSAGE value="new files: cycle_for_continue.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="new files: cycle_for_continue.py" />
+    <MESSAGE value="new files: cycle_for_break.py" />
+    <MESSAGE value="new files: cycle_while_continue_break.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files: cycle_while_continue_break.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
