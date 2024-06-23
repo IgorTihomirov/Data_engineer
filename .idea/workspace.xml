@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: cycle_for_nested_list.py">
-      <change afterPath="$PROJECT_DIR$/Python/basic_python/cycle_for_range.py" afterDir="false" />
+    <list default="true" id="5513882e-dbc2-48eb-8bea-1fc2375672ce" name="Changes" comment="new files: cycle_for_range.py">
+      <change afterPath="$PROJECT_DIR$/Python/basic_python/cycle_for+counter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,7 @@
     "Python.count_tiles1.executor": "Run",
     "Python.count_tiles2.executor": "Run",
     "Python.count_tiles3.executor": "Run",
+    "Python.cycle_for+counter.executor": "Run",
     "Python.cycle_for1.executor": "Run",
     "Python.cycle_for_break.executor": "Run",
     "Python.cycle_for_continue.executor": "Run",
@@ -91,7 +92,29 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.cycle_for_range">
+  <component name="RunManager" selected="Python.cycle_for+counter">
+    <configuration name="cycle_for+counter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data_engineer" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/basic_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/cycle_for+counter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="cycle_for_dict_comprehension" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_engineer" />
       <option name="ENV_FILES" value="" />
@@ -106,28 +129,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/cycle_for_dict_comprehension.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="cycle_for_list_comprehension_range()" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Data_engineer" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/basic_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/basic_python/cycle_for_list_comprehension_range().py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cycle_for+counter" />
         <item itemvalue="Python.cycle_for_range" />
         <item itemvalue="Python.cycle_for_nested_list (1)" />
         <item itemvalue="Python.cycle_for_nested_list" />
         <item itemvalue="Python.cycle_for_dict_comprehension" />
-        <item itemvalue="Python.cycle_for_list_comprehension_range()" />
       </list>
     </recent_temporary>
   </component>
@@ -249,14 +250,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718455761218</updated>
-    </task>
-    <task id="LOCAL-00008" summary="change files: if_else_month.py">
-      <option name="closed" value="true" />
-      <created>1718541824351</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1718541824351</updated>
     </task>
     <task id="LOCAL-00009" summary="new files: and_or_not.py">
       <option name="closed" value="true" />
@@ -642,11 +635,18 @@
       <option name="project" value="LOCAL" />
       <updated>1719073533970</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="new files: cycle_for_range.py">
+      <option name="closed" value="true" />
+      <created>1719096279739</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1719096279739</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new files: slice.py" />
     <MESSAGE value="new files: campare_sequence.py" />
     <MESSAGE value="new files: dictionary.py" />
     <MESSAGE value="new files: check_winners_list_sort.py" />
@@ -671,7 +671,8 @@
     <MESSAGE value="new files: cycle_for_dict_comprehension.py" />
     <MESSAGE value="new files: technical task for final task" />
     <MESSAGE value="new files: cycle_for_nested_list.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="new files: cycle_for_nested_list.py" />
+    <MESSAGE value="new files: cycle_for_range.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files: cycle_for_range.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
