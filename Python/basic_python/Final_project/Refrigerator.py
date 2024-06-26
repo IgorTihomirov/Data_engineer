@@ -1,7 +1,11 @@
 import datetime
 from decimal import Decimal
 
-goods = {}
+goods = {
+    'Яйца': [{'amount': Decimal('1'), 'expiration_date': datetime.date(2023, 6, 24)}],
+    'Яйца гусиные': [{'amount': Decimal('4'), 'expiration_date': datetime.date(2023, 7, 15)}],
+    'Морковь': [{'amount': Decimal('2'), 'expiration_date': datetime.date(2023, 8, 6)}]
+}
 DATE_FORMAT = '%Y-%m-%d'
 
 
@@ -22,14 +26,18 @@ def add_by_note(items, note):
     else:
         add(items, ' '.join(parts[:-1]), Decimal(parts[-1]))
 
-
-add_by_note({}, 'Яйца гусиные 4 2023-07-15')
-add_by_note({}, 'Яйца Фабрики №1 4 2023-07-15')
-print(goods)
+#print(goods)
 
 
 def find(items, needle):
-    ...
+    result = []
+    for title in items:
+        if needle in str.lower(title):
+            result = list.append(result, needle)
+            return result
+
+
+print(find(goods, 'йц'))
 
 
 def amount(items, needle):
