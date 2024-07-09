@@ -15,7 +15,7 @@ class Phone:
 rotary_phone = Phone(dial_type_value='дисковый')
 # Создать объект keypad_phone со значением dial_type_value,
 # равным 'кнопочный'.
-keypad_phone = Phone(dial_type_value='кнопочный')
+keypad_phone = Phone(dial_type_value='кнопочныйq')
 
 # Печать значения атрибута класса.
 print(rotary_phone.line_type)
