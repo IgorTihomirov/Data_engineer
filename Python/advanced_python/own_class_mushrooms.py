@@ -15,16 +15,15 @@ class MushroomsCollector:
     # Допишите метод.
     def add_mushroom(self, mushroom_name):
         if self.is_poisonous(mushroom_name) is True:
-            print('Нельзя добавить ядовитый гриб')     
+            print('Нельзя добавить ядовитый гриб')
         else:
             self.mushrooms.append(mushroom_name)
-    
+
     def __str__(self):
         return str.join(', ', self.mushrooms)
-        
 
     # Напишите магический метод __str__,
-    # возвращающий перечень грибов из списка mushrooms 
+    # возвращающий перечень грибов из списка mushrooms
     # через запятую.
 
 
