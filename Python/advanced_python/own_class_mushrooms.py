@@ -27,6 +27,7 @@ class MushroomsCollector:
     # через запятую.
 
 
+
 # Пример запуска для самопроверки
 collector_1 = MushroomsCollector()
 collector_1.add_mushroom('Мухомор')
