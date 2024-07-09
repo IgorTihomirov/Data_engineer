@@ -25,3 +25,5 @@ print(rotary_phone.dial_type)
 print(keypad_phone.line_type)
 # Печать значения атрибута объекта.
 print(keypad_phone.dial_type)
+
+
