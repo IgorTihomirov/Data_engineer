@@ -1,5 +1,5 @@
 class Phone:
-
+    # Тип телефона
     line_type = 'проводной'
 
     def __init__(self, dial_type_value):
@@ -15,27 +15,33 @@ class Phone:
 class MobilePhone(Phone):
     # Переопределить значение атрибута line_type класса Phone.
     line_type = 'беспроводной'
+    # Тип батареи
+    battery_type = 'Li-ion'
 
+    # Инициализатор класса MobilePhone с новым параметром:
+    # network_type(Стандарт беспроводной связи)
+    def __init__(self, dial_type_value, network_type):
+        # Новый атрибут объекта
+        self.network_type = network_type
+        # Вызов родительского инициализатора
+        super().__init__(dial_type_value)
+        
     # Переопределить метод ring() класса Phone.
     def ring(self):
         print('Дзынь-дзынь!')
 
+    # Новый метод - запуск игры
+    def start_game(self):
+        print('Игра запущена!')
 
-rotary_phone = Phone('дисковый')
-mobile_phone = MobilePhone('сенсорный')
 
-# Распечатать значение атрибута line_type для объекта класса Phone.
-print(rotary_phone.line_type)
-# Вызвать метод ring() для объекта класса Phone.
-rotary_phone.ring()
+mobile_phone = MobilePhone('сенсорный', 'LTE')
 
-# Распечатать значение атрибута line_type для объекта класса MobilePhone.
-print(mobile_phone.line_type)
-# Вызвать метод ring() для объекта класса MobilePhone.
-mobile_phone.ring()
+print(mobile_phone.battery_type)
+print(mobile_phone.network_type)
+mobile_phone.start_game()
 
 # Вывод:
-# проводной
-# Дзззззыыыыыыыынь!
-# беспроводной
-# Дзынь-дзынь!
+# Li-ion
+# LTE
+# Игра запущена! 
