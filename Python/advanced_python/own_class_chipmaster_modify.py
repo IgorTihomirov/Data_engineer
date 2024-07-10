@@ -7,7 +7,9 @@ class CipherMaster:
             self.text_lower = text.lower()
             for element in self.text_lower:
                 if element in self.alphabet:
-                    txt = txt + self.alphabet[(self.alphabet.find(element) + shift) % len(self.alphabet)]
+                    txt = txt + \
+                        self.alphabet[(self.alphabet.find(
+                            element) + shift) % len(self.alphabet)]
                 else:
                     txt += element
             return txt
@@ -16,7 +18,9 @@ class CipherMaster:
             self.text_lower = text.lower()
             for element in self.text_lower:
                 if element in self.alphabet:
-                    txt = txt + self.alphabet[(self.alphabet.find(element) - shift) % len(self.alphabet)]
+                    txt = txt + \
+                        self.alphabet[(self.alphabet.find(
+                            element) - shift) % len(self.alphabet)]
                 else:
                     txt += element
             return txt    
