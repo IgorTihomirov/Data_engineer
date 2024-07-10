@@ -33,4 +33,4 @@ print(cipher_master.process_text(
     text='Олебэи яфвнэ мроплж сэжи — э пэй рдв злййвкпш лп нвящывнэ',
     shift=-3,
     is_encrypt=False
-)) 
+))
