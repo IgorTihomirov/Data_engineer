@@ -1,5 +1,7 @@
 # Объявить класс.
 class Board:
+    """Класс, который описывает игровое поле."""
+
     # Новый атрибут.
     field_size = 3
     # Инициализировать игровое поле - список списков с пробелами.
@@ -17,7 +19,7 @@ class Board:
     def display(self):
         for row in self.board:
             print('|'.join(row))
-            print('-' * 9)
+            print('-' * 5)
 
     # Переопределяем метод __str__.
     def __str__(self):
@@ -25,4 +27,3 @@ class Board:
             'Объект игрового поля размером '
             f'{self.field_size}x{self.field_size}'
         )
-     
