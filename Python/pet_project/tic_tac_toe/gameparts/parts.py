@@ -16,7 +16,7 @@ class Board:
     def make_move(self, row, col, player):
         self.board[row][col] = player
 
-    # Метод, который отрисовывает игровое поле.
+    #Метод, который отрисовывает игровое поле.
     def display(self):
         for row in self.board:
             print('|'.join(row))
