@@ -5,4 +5,4 @@ https://docs.google.com/document/d/1l2OS5xjAE1Szu8w7Xa_xossHFwh-YF7HLOkaynejUKo/
 
 
 
-ID посылки решенной задачи из Яндекс-Контест: 116787255
+ID посылки решенной задачи из Яндекс-Контест: 116812845

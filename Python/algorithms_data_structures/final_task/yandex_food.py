@@ -3,7 +3,7 @@ https://docs.google.com/document/d/1l2OS5xjAE1Szu8w7Xa_xossHFwh-YF7HLOkaynejUKo/
 
 
 """
-ID посылки из Яндекс-Контест: 116787255
+ID посылки из Яндекс-Контест: 116812845
 Теперь само решение финального задания.
 Будем сортировать веса роботов и пробовать упаковать их на платформу
 по принципу "самого лёгкого" и "самого тяжёлого" робота, чтобы максимально
@@ -11,9 +11,33 @@ ID посылки из Яндекс-Контест: 116787255
 """
 
 
+def bubble_sort(weights: list[int]) -> list[int]:
+    n = len(weights)
+    # На каждой итерации переменная last_index будет уменьшаться на 1.
+    for last_index in range(n - 1, 0, -1):
+        # На этом проходе перестановок ещё не было:
+        swapped = False
+        # Вложенный цикл будет перебирать значения от 0 до last_index
+        for item_index in range(last_index):
+            if weights[item_index] > weights[item_index+1]:
+                # Если значения надо поменять местами - меняем.
+                weights[item_index], weights[item_index + 1] = (
+                    weights[item_index + 1], weights[item_index]
+                )
+                # Выставляем флаг "выполнена перестановка".
+                swapped = True
+                # После окончания внутреннего цикла проверяем значение флага. 
+                # Если перестановок не было...
+        if not swapped:
+            # ...то выходим из внешнего цикла.
+            break
+    return weights
+
+
 def min_platforms(weights: list[int], limit: int) -> int:  # Аннотация типов в наличии
     # Сортируем массив весов, чтобы можно было найти самого легко и самого тяжелого робота
-    weights.sort()
+    # при помощи пузырьковой сортировки
+    weights = bubble_sort(weights)
 
     left = 0  # Указатель на самого легкого робота
     right = len(weights) - 1  # Указатель на самого тяжелого робота
